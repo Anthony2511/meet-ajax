@@ -52,7 +52,6 @@ if ( !empty( $_SERVER[ "HTTP_X_REQUESTED_WITH" ] ) && strtolower( $_SERVER[ "HTT
     <head>
         <meta charset="utf-8" />
         <title lang="en">Meet AJAX</title>
-
         <link rel="stylesheet" href="css/bootstrap.min.css" />
     </head>
     <body>
@@ -123,7 +122,7 @@ if ( !empty( $_SERVER[ "HTTP_X_REQUESTED_WITH" ] ) && strtolower( $_SERVER[ "HTT
                     <h3>Supprimer les coupaings</h3>
                     <p>Ils seront perdus à jamais, mais vous pourrez toujours en créer d'autres…</p>
                     <div class="text-center">
-                        <a href="./?clean" class="btn btn-danger">Supprimer les coupaings</a>
+                        <a href="./?clean" id="clean-buddies" class="btn btn-danger">Supprimer les coupaings</a>
                     </div>
                 </div>
                 <div class="col-md-4">
